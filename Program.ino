@@ -15,10 +15,10 @@ void setup() {
   // Ustawianie godziny
   // seconds, minutes, hours, day of the week, day of the month, month, year
 //  myRTC.setDS1302Time(00, 8, 18, 2, 31, 12, 2019);
-  TV.begin(PAL,120,96);
+  TV.begin(PAL,120,96);// rozdzielczość 120 na 96. Może być 720 na 596
   TV.select_font(font8x8ext);
  
-  TV.println();
+  TV.println();// te linie są po to aby się wyświetlało trochę niżej
   TV.println();
   TV.println();
   TV.println();
