@@ -12,6 +12,7 @@ int i=0;
 
 void setup() {
   Serial.begin(9600);
+  // Ustawianie godziny
   // seconds, minutes, hours, day of the week, day of the month, month, year
 //  myRTC.setDS1302Time(00, 8, 18, 2, 31, 12, 2019);
   TV.begin(PAL,120,96);
